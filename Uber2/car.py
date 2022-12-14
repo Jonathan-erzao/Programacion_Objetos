@@ -6,7 +6,7 @@ class Car(Driver):
     color     = str
     año       = str
     matricula = str
-    driver = Driver("", "", "", "", "", "")
+    driver    = Driver("", "", "", "", "", "")
     
     def __init__(self, placa, modelo, color, año, matricula, driver):
         self.placa      = placa
